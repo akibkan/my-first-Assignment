@@ -28,14 +28,22 @@ nav .menu a{
     text-decoration: none;
     
 }
+/* common style */
 .btn{
     background-color: green;
     color: white;
     padding: 16px 12px;
     border: none;
     border-radius: 4px;
+    cursor: pointer;
 
 }
+.btn:hover{
+    background-color: aqua;
+    color: black;
+    width: 10rem;
+}
+
 #banner{
     background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
     height:674px;
@@ -66,16 +74,21 @@ nav .menu a{
     margin-bottom: 32px;
 
 }
- .banner-btn{
-    gap: -36px;
-}
+
+
 .banner-content .banner-btn{
    background-color: rgb(107, 109, 107);
     color: white;
     padding: 16px 12px;
     border: 1px solid #ffffff;
     border-radius: 4px;
+    cursor: pointer;
 }
+.banner-content .banner-btn:hover{
+    background-color: aqua;
+    color: black;
+}
+
 #about{
     padding-top: 100px;
 }
@@ -184,7 +197,7 @@ nav .menu a{
     margin-bottom: 16px;
 }
 #invitation{
-    padding-top: 120px;
+    padding-top: 120px ;
 }
 #invitation .invitation-container{
     width: 85%;
@@ -215,3 +228,49 @@ nav .menu a{
     color: #627382;
     padding-top: 16px;
 }
+#footer{
+    /* padding-top: 120px; */
+    background-color: #001931;
+    margin-top: 120px;
+}
+#footer .footer-container{
+    width: 100%;
+    max-width: 1600px;
+    /* border: 1px solid red; */
+    padding: 120px 120px 30px 120px;
+    margin: 0 auto;
+}
+.footer-container .footer-card{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    /* border: 1px solid red; */
+
+}
+.footer-card .footer-info{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* border: 1px solid red; */
+}
+.footer-card p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.footer-card .footer-link{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90px;
+}
+.footer-container .footer-card2{
+    font-size: 16px;
+    color: #fafafa;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
