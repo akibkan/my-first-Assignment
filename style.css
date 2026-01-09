@@ -183,3 +183,35 @@ nav .menu a{
     font-size: 16px;
     margin-bottom: 16px;
 }
+#invitation{
+    padding-top: 120px;
+}
+#invitation .invitation-container{
+    width: 85%;
+    max-width: 1360px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 40px;
+    background-color: #f7f6f2;
+    border-radius: 12px;
+}
+ .invitation-container .invitation-content h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: #001931;
+    margin-bottom: 16px;
+ }
+ .invitation-container .invitation-content p{
+     font-weight: 400;
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 24px;
+    line-height: 1.6;
+}
+#invitation .invitation-call p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    padding-top: 16px;
+}
