@@ -76,3 +76,62 @@ nav .menu a{
     border: 1px solid #ffffff;
     border-radius: 4px;
 }
+#about{
+    padding-top: 100px;
+}
+#about .about-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+.section-heading{
+    margin: 0 auto;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.section-heading p{
+    font-size: 16px;
+    color: #627382;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 44px;
+}
+#about .about-container .about-info{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    
+}
+.about-info .info-card{
+    padding: 69px 24px;
+    /* border: 1px solid red; */
+    max-width: 322px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 8px 10px 0;
+}
+.info-card img{
+    /* max-width: 80px; */
+    background-color: #f95555;
+    border-radius: 50%;
+    margin-bottom: 16px;
+
+}
+.info-card h4{
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.info-card p{
+    color: #627382;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+}
